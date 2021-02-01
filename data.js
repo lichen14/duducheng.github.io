@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/duducheng/duducheng.github.io",
-    lastUpdated: "Jan 27, 2021",
+    lastUpdated: "Feb 1, 2021",
     showPageviews: false,
     navbar: [
         {
@@ -671,13 +671,17 @@ const talks = [
             {
                 tag: "slides",
                 href: "https://docs.qq.com/pdf/DS0xDdEVwTkd2RnBW"
+            },
+            {
+                tag: "video (in Chinese)",
+                href: "https://www.slidestalk.com/Baiyulan/20210126OpenData163895?video=&_fuid=40979"
             }
         ],
         turns: [
             {
                 mmyyyy: "01/2021",
                 where: "AI Institute, SJTU, Shanghai",
-                note: "<a href='https://mp.weixin.qq.com/s/vVzECjq3ekjh2SxKcqTa3g' target='_blank'>Flyer in Chinese</a>"
+                note: "<a href='https://mp.weixin.qq.com/s/vVzECjq3ekjh2SxKcqTa3g' target='_blank'>Flyer</a> & <a href='https://mp.weixin.qq.com/s/XmjkcJWKlelpvCu4QLI5zQ' target='_blank'>Press</a> in Chinese"
             }
         ]
     },
