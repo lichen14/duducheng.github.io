@@ -65,7 +65,7 @@ const about = {
 
 const biography = `I am a third-year PhD student in the Department of Electronic Engineering, Shanghai Jiao Tong University, advised by <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ">Prof. Bingbing Ni</a>. I received the BEng and MEng degree in the Department of Automation from the same university. Enrolled in a double master degree program, I spent 2 years in France with an Engineer degree. I am now a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University (2020.08-, remotely due to COVID-19). <br>
 
-I focus on medical image analysis, 3D computer vision and truthworthy machine learning, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
+I focus on medical image analysis, 3D computer vision and trustworthy machine learning, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
 
 const news = [
     {
