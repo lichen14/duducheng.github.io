@@ -670,6 +670,26 @@ const activities = {
 
 const talks = [
     {
+        title: "MedMNIST Classification Decathlon and Clinical AI",
+        materials: [
+            {
+                tag: "slides",
+                href: "https://docs.qq.com/pdf/DS1Bab21waEhtdXNF"
+            },
+            {
+                tag: "video (YouTube)",
+                href: "https://www.nova77.org/recorded-video-for-webinar-slides-for-medmnist-classification-decathlon-and-clinical-ai-by-jiancheng-yang/4068/"
+            }
+        ],
+        turns: [
+            {
+                mmyyyy: "02/2021",
+                where: " Pie & AI by <a href='https://deeplearning.ai/' target='_blank'>DeepLearning.AI</a> (online)",
+                note: "Host: <a href='https://www.eventbrite.com/e/pie-ai-henderson-medmnist-classification-decathlon-clinical-ai-tickets-137316189419#' target='_blank'>Nova77 STEM Workshop</a>"
+            }
+        ]
+    },
+    {
         title: "How to Develop Open Research Dataset: Examples of Medical Images",
         materials: [
             {

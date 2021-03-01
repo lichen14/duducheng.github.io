@@ -96,7 +96,7 @@
                 <h2><b>News</b></h2>
                 <div style="height: 250px; overflow: auto;">
                     <ul>
-                        <li v-for="item in news" style="text-align:justify; text-justify:inter-ideograph">
+                        <li v-for="item in news.slice(0,10)" style="text-align:justify; text-justify:inter-ideograph">
                             [{{item.mmyyyy}}]
                             <span v-html="item.text"></span>
                         </li>
