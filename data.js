@@ -70,7 +70,7 @@ I focus on medical image analysis, 3D computer vision and trustworthy machine le
 const news = [
     {
         "mmyyyy": "03/2021",
-        "text": "1 paper on action recognition was accepted by CVPR'21."
+        "text": "1 paper on skeleton-based action recognition was accepted by CVPR'21."
     },
     {
         "mmyyyy": "01/2021",
