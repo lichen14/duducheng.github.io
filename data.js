@@ -591,6 +591,11 @@ const activities = {
     ],
     conference: [
         {
+            venue: "Advances in Neural Information Processing Systems",
+            year: "2021",
+            abbr: "NeurIPS"
+        },
+        {
             venue: "International Conference on Computer Vision",
             year: "2021",
             abbr: "ICCV"
