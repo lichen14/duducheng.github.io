@@ -129,6 +129,25 @@ const news = [
 
 const publications = [
     {
+        title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
+        file: "#TODO",
+        venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+        abbr: "CVPR",
+        year: "2021",
+        authors: ["Linguo Li", "Minsi Wang", "Bingbing Ni", "Hang Wang", "Jiancheng Yang", "Wenjun Zhang"],
+        img: "assets/imgs/LLG CVPR21.png",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/LinguoLi/CrosSCLR"
+            }
+        ]
+    },
+    {
         title: "MedMNIST Classification Decathlon: A Lightweight AutoML Benchmark for Medical Image Analysis",
         file: "assets/publication/MedMNIST ISBI21.pdf",
         venue: "IEEE International Symposium on Biomedical Imaging",
@@ -137,6 +156,10 @@ const publications = [
         authors: ["Jiancheng Yang", "Rui Shi", "Bingbing Ni"],
         img: "assets/imgs/MedMNIST 2010.14925.jpg",
         materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
             {
                 tag: "project page",
                 href: "https://medmnist.github.io/"
