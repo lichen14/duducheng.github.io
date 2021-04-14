@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/duducheng/duducheng.github.io",
-    lastUpdated: "April 2, 2021",
+    lastUpdated: "April 15, 2021",
     showPageviews: false,
     navbar: [
         {
@@ -840,7 +840,7 @@ const talks = [
 const misc = [
     "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
     "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
-    "<i>Patent</i>: 2 CN patents granted and 3 pending.",
+    "<i>Patent</i>: 3 CN patents granted and several pending.",
     "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
-    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and video games (especially Nintendo)."
+    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games."
 ];
