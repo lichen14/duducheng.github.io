@@ -403,7 +403,13 @@ const publications = [
         venue: "Neurocomputing",
         year: "2020",
         authors: ["Tiancheng Lin", 'Yuanfan Guo', 'Canqian Yang', 'Jiancheng Yang', "Yi Xu"],
-        img: "assets/imgs/LTC Neurocomputing.jpg"
+        img: "assets/imgs/LTC Neurocomputing.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "https://doi.org/10.1016/j.neucom.2020.03.128"
+            }
+        ]
     },
     {
         title: "Deep Kinematics Analysis for Monocular 3D Pose Estimation",
@@ -415,7 +421,7 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "https://doi.org/10.1109/CVPR42600.2020.00098",
+                href: "https://doi.org/10.1109/CVPR42600.2020.00098"
             },
             {
                 tag: "video",
