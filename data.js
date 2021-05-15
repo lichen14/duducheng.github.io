@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/duducheng/duducheng.github.io",
-    lastUpdated: "April 15, 2021",
+    lastUpdated: "May 15, 2021",
     showPageviews: false,
     navbar: [
         {
@@ -65,9 +65,13 @@ const about = {
 
 const biography = `I am a 4th-year PhD student in the Department of Electronic Engineering, Shanghai Jiao Tong University, advised by <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ">Prof. Bingbing Ni</a>. I received BEng and MEng degree in the Department of Automation from the same university. Enrolled in a double master degree program, I spent 2 years in France with an Engineer degree. I was a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting <a href="https://cvlab.epfl.ch/">EPFL CVLab</a>, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
 
-I focus on medical image analysis, 3D computer vision and trustworthy machine learning, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
+I focus on medical image analysis and 3D computer vision, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
 
 const news = [
+    {
+        "mmyyyy": "05/2021",
+        "text": "Happy to be listed in Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
+    },
     {
         "mmyyyy": "03/2021",
         "text": "1 paper on skeleton-based action recognition was accepted by CVPR'21."
@@ -130,7 +134,7 @@ const news = [
 const publications = [
     {
         title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
-        file: "#TODO",
+        file: "assets/publication/LLG CVPR21.pdf",
         venue: "IEEE Conference on Computer Vision and Pattern Recognition",
         abbr: "CVPR",
         year: "2021",
@@ -556,6 +560,10 @@ const preprints = [
 ];
 
 const honors = [
+    {
+        "yyyy": "2021",
+        "text": "Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
+    },
     {
         "yyyy": "2020",
         "text": "China National PhD Scholarship (top 2%)."
