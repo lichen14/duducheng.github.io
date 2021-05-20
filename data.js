@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/duducheng/duducheng.github.io",
-    lastUpdated: "May 15, 2021",
+    lastUpdated: "May, 2021",
     showPageviews: false,
     navbar: [
         {
