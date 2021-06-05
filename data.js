@@ -162,7 +162,7 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "#TODO"
+                href: "https://doi.org/10.1109/ISBI48211.2021.9434062"
             },
             {
                 tag: "project page",
