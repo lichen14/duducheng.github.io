@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/duducheng/duducheng.github.io",
-    lastUpdated: "March 1, 2021",
+    lastUpdated: "May, 2021",
     showPageviews: false,
     navbar: [
         {
@@ -63,11 +63,15 @@ const about = {
     ]
 };
 
-const biography = `I am a third-year PhD student in the Department of Electronic Engineering, Shanghai Jiao Tong University, advised by <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ">Prof. Bingbing Ni</a>. I received the BEng and MEng degree in the Department of Automation from the same university. Enrolled in a double master degree program, I spent 2 years in France with an Engineer degree. I am now a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University (2020.08-, remotely due to COVID-19). <br>
+const biography = `I am a 4th-year PhD student in the Department of Electronic Engineering, Shanghai Jiao Tong University, advised by <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ">Prof. Bingbing Ni</a>. I received BEng and MEng degree in the Department of Automation from the same university. Enrolled in a double master degree program, I spent 2 years in France with an Engineer degree. I was a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting <a href="https://cvlab.epfl.ch/">EPFL CVLab</a>, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
 
-I focus on medical image analysis, 3D computer vision and trustworthy machine learning, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
+I focus on medical image analysis and 3D computer vision, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
 
 const news = [
+    {
+        "mmyyyy": "05/2021",
+        "text": "Happy to be listed in Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
+    },
     {
         "mmyyyy": "03/2021",
         "text": "1 paper on skeleton-based action recognition was accepted by CVPR'21."
@@ -129,6 +133,25 @@ const news = [
 
 const publications = [
     {
+        title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
+        file: "assets/publication/LLG CVPR21.pdf",
+        venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+        abbr: "CVPR",
+        year: "2021",
+        authors: ["Linguo Li", "Minsi Wang", "Bingbing Ni", "Hang Wang", "Jiancheng Yang", "Wenjun Zhang"],
+        img: "assets/imgs/LLG CVPR21.png",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/LinguoLi/CrosSCLR"
+            }
+        ]
+    },
+    {
         title: "MedMNIST Classification Decathlon: A Lightweight AutoML Benchmark for Medical Image Analysis",
         file: "assets/publication/MedMNIST ISBI21.pdf",
         venue: "IEEE International Symposium on Biomedical Imaging",
@@ -137,6 +160,10 @@ const publications = [
         authors: ["Jiancheng Yang", "Rui Shi", "Bingbing Ni"],
         img: "assets/imgs/MedMNIST 2010.14925.jpg",
         materials: [
+            {
+                tag: "publication",
+                href: "https://doi.org/10.1109/ISBI48211.2021.9434062"
+            },
             {
                 tag: "project page",
                 href: "https://medmnist.github.io/"
@@ -380,7 +407,13 @@ const publications = [
         venue: "Neurocomputing",
         year: "2020",
         authors: ["Tiancheng Lin", 'Yuanfan Guo', 'Canqian Yang', 'Jiancheng Yang', "Yi Xu"],
-        img: "assets/imgs/LTC Neurocomputing.jpg"
+        img: "assets/imgs/LTC Neurocomputing.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "https://doi.org/10.1016/j.neucom.2020.03.128"
+            }
+        ]
     },
     {
         title: "Deep Kinematics Analysis for Monocular 3D Pose Estimation",
@@ -392,7 +425,7 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "https://doi.org/10.1109/CVPR42600.2020.00098",
+                href: "https://doi.org/10.1109/CVPR42600.2020.00098"
             },
             {
                 tag: "video",
@@ -528,6 +561,10 @@ const preprints = [
 
 const honors = [
     {
+        "yyyy": "2021",
+        "text": "Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
+    },
+    {
         "yyyy": "2020",
         "text": "China National PhD Scholarship (top 2%)."
     },
@@ -590,6 +627,11 @@ const activities = {
         "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
     ],
     conference: [
+        {
+            venue: "Advances in Neural Information Processing Systems",
+            year: "2021",
+            abbr: "NeurIPS"
+        },
         {
             venue: "International Conference on Computer Vision",
             year: "2021",
@@ -812,7 +854,8 @@ const talks = [
 const misc = [
     "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
     "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
-    "<i>Patent</i>: 2 CN patents granted and 3 pending.",
+    "<i>Patent</i>: 3 CN patents granted and several pending.",
     "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
-    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and video games (especially Nintendo)."
+    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games.",
+    '<i>"Do not go gentle into that good night."</i> --- Dylan Thomas (also from <i><a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">Interstellar</a></i>)'
 ];
