@@ -69,6 +69,10 @@ I focus on medical image analysis and 3D computer vision, with a clinical emphas
 
 const news = [
     {
+        "mmyyyy": "06/2021",
+        "text": "2 papers (asymmetric 3D context fusion on DeepLesion, a new rib centerline dataset RibCL) were accepted by MICCAI'21."
+    },
+    {
         "mmyyyy": "05/2021",
         "text": "Happy to be listed in Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
     },
