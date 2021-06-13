@@ -632,6 +632,11 @@ const activities = {
     ],
     conference: [
         {
+            venue: "International Conference on Learning Representations",
+            year: "2022",
+            abbr: "ICLR"
+        },
+        {
             venue: "Advances in Neural Information Processing Systems",
             year: "2021",
             abbr: "NeurIPS"
