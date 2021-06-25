@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/duducheng/duducheng.github.io",
-    lastUpdated: "May, 2021",
+    lastUpdated: "June, 2021",
     showPageviews: false,
     navbar: [
         {
@@ -136,6 +136,44 @@ const news = [
 
 
 const publications = [
+    {
+        title: "Asymmetric 3D Context Fusion for Universal Lesion Detection",
+        file: "assets/publication/#TODO",
+        venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        abbr: "MICCAI",
+        year: "2021",
+        authors: ["Jiancheng Yang*", "Yi He*", "Kaiming Kuang", "Zudi Lin", "Hanspeter Pfister", "Bingbing Ni"],
+        img: "assets/imgs/A3D MICCAI21.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/M3DV/AlignShift"
+            }
+        ]
+    },
+    {
+        title: "RibCL Dataset and Strong Baselines via Geometric Deep Learning for Rib Segmentation and Centerline Extraction from CT Scans",
+        file: "assets/publication/#TODO",
+        venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        abbr: "MICCAI",
+        year: "2021",
+        authors: ["Jiancheng Yang*", "Shixuan Gu*", "Donglai Wei", "Hanspeter Pfister", "Bingbing Ni"],
+        img: "assets/imgs/RibCL MICCAI21.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/M3DV/RibCL"
+            }
+        ]
+    },
     {
         title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
         file: "assets/publication/LLG CVPR21.pdf",
