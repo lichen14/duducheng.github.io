@@ -156,7 +156,7 @@ const publications = [
         ]
     },
     {
-        title: "RibCL Dataset and Strong Baselines via Geometric Deep Learning for Rib Segmentation and Centerline Extraction from CT Scans",
+        title: "RibCL Dataset and Strong Point Cloud Baselines for Rib Segmentation from CT Scans",
         file: "assets/publication/#TODO",
         venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
         abbr: "MICCAI",
