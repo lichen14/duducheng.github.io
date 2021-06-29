@@ -70,7 +70,7 @@ I focus on medical image analysis and 3D computer vision, with a clinical emphas
 const news = [
     {
         "mmyyyy": "06/2021",
-        "text": "2 papers (asymmetric 3D context fusion on DeepLesion, a new rib centerline dataset RibCL) were accepted by MICCAI'21."
+        "text": "2 papers (asymmetric 3D context fusion on DeepLesion, a new rib segmentation dataset RibSeg) were accepted by MICCAI'21."
     },
     {
         "mmyyyy": "05/2021",
@@ -156,13 +156,13 @@ const publications = [
         ]
     },
     {
-        title: "RibCL Dataset and Strong Point Cloud Baselines for Rib Segmentation from CT Scans",
+        title: "RibSeg Dataset and Strong Point Cloud Baselines for Rib Segmentation from CT Scans",
         file: "assets/publication/#TODO",
         venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
         abbr: "MICCAI",
         year: "2021",
         authors: ["Jiancheng Yang*", "Shixuan Gu*", "Donglai Wei", "Hanspeter Pfister", "Bingbing Ni"],
-        img: "assets/imgs/RibCL MICCAI21.jpg",
+        img: "assets/imgs/RibSeg MICCAI21.jpg",
         materials: [
             {
                 tag: "publication",
@@ -170,7 +170,7 @@ const publications = [
             },
             {
                 tag: "code",
-                href: "https://github.com/M3DV/RibCL"
+                href: "https://github.com/M3DV/RibSeg"
             }
         ]
     },
