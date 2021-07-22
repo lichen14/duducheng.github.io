@@ -616,10 +616,6 @@ const honors = [
     },
     {
         "yyyy": "2020",
-        "text": "Chinese Government Scholarship from China Scholarship Council (CSC)."
-    },
-    {
-        "yyyy": "2020",
         "text": "MICCAI 2020 Student Travel Award."
     },
     {
@@ -747,6 +743,9 @@ const activities = {
         {
             venue: "European Journal of Nuclear Medicine and Molecular Imaging",
             abbr: "EJNMMI"
+        },
+        {
+            venue: "Expert Systems with Applications"
         },
         {
             venue: "IEEE Access"
