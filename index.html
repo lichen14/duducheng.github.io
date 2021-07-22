@@ -54,7 +54,8 @@
 
         <br>
 
-        <div class="row" id="about">
+        <!-- about -->
+        <div class="row">
 
             <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
                 <img v-bind:src="about.avatar" class="img-fluid">
@@ -80,8 +81,8 @@
 
         </div>
 
-
-        <div class="row" id="biography">
+        <!-- biography -->
+        <div class="row">
             <div class="col-xs-12">
                 <h2><b>Biography</b></h2>
                 <p style="text-align:justify; text-justify:inter-ideograph">
@@ -90,8 +91,8 @@
             </div>
         </div>
 
-
-        <div class="row" id="news">
+        <!-- news -->
+        <div class="row">
             <div class="col-xs-12">
                 <h2><b>News</b></h2>
                 <div style="height: 250px; overflow: auto;">
@@ -105,8 +106,8 @@
             </div>
         </div>
 
-
-        <div class="row" id="publications">
+        <!-- publications -->
+        <div class="row">
 
             <div class="col-xs-12">
                 <h2><b>Selected Publications</b></h2>
@@ -167,7 +168,8 @@
             </div>
         </div>
 
-        <div class="row" id="preprints" v-if="preprints.length>0">
+        <!-- preprints -->
+        <div class="row" v-if="preprints.length>0">
 
             <div class="col-xs-12">
                 <h2><b>Selected Preprints</b></h2>
@@ -207,7 +209,8 @@
             </div>
         </div>
 
-        <div class="row" id="honors">
+        <!-- honors -->
+        <div class="row">
             <div class="col-xs-12">
                 <h2><b>Selected Honors and Competitions</b></h2>
                 <ul>
@@ -219,8 +222,8 @@
             </div>
         </div>
 
-
-        <div class="row" id="talks">
+        <!-- talks -->
+        <div class="row">
 
             <div class="col-xs-12">
                 <h2><b>Selected Talks</b></h2>
@@ -241,7 +244,7 @@
                         <p v-for="(turn, uid) in item.turns">
                             at: [{{turn.mmyyyy}}]
                             <i>
-                                <span v-html="turn.where"></span> 
+                                <span v-html="turn.where"></span>
                             </i>
                             <span v-if="turn.note">&nbsp;(<span v-html="turn.note"></span>)</span>
                         </p>
@@ -252,8 +255,8 @@
             </div>
         </div>
 
-
-        <div class="row" id="activities">
+        <!-- activities -->
+        <div class="row">
             <div class="col-xs-12">
                 <h2><b>Professional Activities</b></h2>
 
@@ -289,8 +292,8 @@
             </div>
         </div>
 
-
-        <div class="row" id="misc">
+        <!-- misc -->
+        <div class="row">
             <div class="col-xs-12">
                 <h2><b>Misc.</b></h2>
                 <ul>
@@ -301,7 +304,7 @@
             </div>
         </div>
 
-
+        
         <p align="center">
             Copyright © {{site.year}} <span class="d-block d-sm-none"></span>{{about.nameCN}} {{about.nameEN}}
         </p>
@@ -315,7 +318,7 @@
 
         <p align="center" v-show="site.showPageviews">
             <!-- Please do not use the following page tracker if you are using my website as template. -->
-            <small>Pageviews since Nov, 2020:</small><br> 
+            <small>Pageviews since Nov, 2020:</small><br>
             <a href="https://clustrmaps.com/site/1behp" title="Visit tracker">
                 <img
                     src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=7RCklwYfZbd5GuUGn-g2BcGrODdGF07rzL_Yu0kH1cg&co=a1bfd4&ct=ffffff" />
