@@ -902,6 +902,5 @@ const misc = [
     "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
     "<i>Patent</i>: 3 CN patents granted and several pending.",
     "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
-    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games.",
-    '<i>"Do not go gentle into that good night."</i> --- Dylan Thomas (also from <i><a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">Interstellar</a></i>)'
+    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games."
 ];
