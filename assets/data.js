@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/duducheng/duducheng.github.io",
-    lastUpdated: "June, 2021",
+    lastUpdated: "July, 2021",
     showPageviews: false,
     navbar: [
         {
@@ -68,6 +68,10 @@ const biography = `I am a 4th-year PhD student in the Department of Electronic E
 I focus on medical image analysis and 3D computer vision, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I have been a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
 
 const news = [
+    {
+        "mmyyyy": "07/2021",
+        "text": "1 paper on self-supervising point clouds was accepted by ICCV'21."
+    },
     {
         "mmyyyy": "06/2021",
         "text": "2 papers (asymmetric 3D context fusion on DeepLesion, a new rib segmentation dataset RibSeg) were accepted by MICCAI'21."
