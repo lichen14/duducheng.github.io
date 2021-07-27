@@ -27,16 +27,16 @@ const site = {
             href: "https://ribfrac.grand-challenge.org/"
         },
         {
+            tag: "2048 Game API",
+            href: "https://github.com/duducheng/2048-api"
+        },
+        {
             tag: "Deep Learning Kickstart",
             href: "https://github.com/M3DV/Kickstart"
         },
         {
             tag: "My Learning Notes",
             href: "https://github.com/duducheng/Learning-Notes"
-        },
-        {
-            tag: "2048 Game API",
-            href: "https://github.com/duducheng/2048-api"
         },
         {
             tag: "AI Deadlines (CV-oriented)",
