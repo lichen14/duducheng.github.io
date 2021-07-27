@@ -79,9 +79,9 @@ const about = {
     ]
 };
 
-const biography = `I am a 4th-year PhD student in the Department of Electronic Engineering, Shanghai Jiao Tong University, advised by <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ">Prof. Bingbing Ni</a>. I received BEng and MEng degree in the Department of Automation from the same university. Enrolled in a double master degree program, I spent 2 years in France with an Engineer degree. I was a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting <a href="https://cvlab.epfl.ch/">EPFL CVLab</a>, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
+const biography = `I am a 4th-year Ph.D. student at Shanghai Jiao Tong University, advised by <a href='https://scholar.google.com/citations?user=eUbmKwYAAAAJ'>Prof. Bingbing Ni</a>. I received BEng and MEng degrees from the same university. I also obtained a <a href='https://en.wikipedia.org/wiki/Dipl%C3%B4me_d%27Ing%C3%A9nieur'>Dipl. Ing.</a> (my double master's degree) in France. I was a visiting research fellow in the <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting <a href="https://cvlab.epfl.ch/">EPFL CVLab</a>, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
 
-I focus on medical image analysis and 3D computer vision, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I have been a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
+I focus on <b>medical image analysis</b> and <b>3D computer vision</b>, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals/conferences, e.g., Cancer Research, CVPR, MICCAI, and NeurIPS. I have been a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge</a>.`
 
 const news = [
     {
