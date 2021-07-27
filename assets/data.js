@@ -331,7 +331,7 @@ const publications = [
     {
         title: "医学三维计算机视觉: 研究进展和挑战",
         file: "assets/publication/M3DV CJIG.pdf",
-        note: "Advances and Challenges in Medical 3D Computer Vision; in Chinese",
+        note: '"Advances and Challenges in Medical 3D Computer Vision"; in Chinese',
         venue: "中国图象图形学报 (Journal of Image and Graphics)",
         year: "2020",
         authors: ["Jiancheng Yang", "Bingbing Ni"],
