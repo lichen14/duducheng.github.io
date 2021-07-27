@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Publications</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../vender/bootstrap.min.css" rel="stylesheet">
+    <script src="../vender/vue.min.js"></script>
+    <link href="../assets/site/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+
+<body>
+
+    <div class="container" id="app">
+
+        <p>Filter:
+            <span class="badge" v-on:click="selectedYear = 'All'"
+                v-bind:class="{  'badge-dark': selectedYear === 'All' }">
+                {{years[0]}}-{{years[years.length-1]}}
+            </span>
+            <span class="badge" v-for="yyyy in years" v-on:click="selectedYear = yyyy"
+                v-bind:class="{ 'badge-dark': selectedYear === yyyy}">
+                {{yyyy}}
+            </span>
+            | Numbered:
+            <span class="badge" v-for="listType in ['ul', 'ol']" v-bind:class="{'badge-dark': selectedList===listType}"
+                v-on:click="selectedList = listType">{{listType}}</span>
+            | <span class="badge" v-on:click="showSelected=!showSelected"
+                v-bind:class="{  'badge-dark': showSelected}">Show Selected: {{numberOfSelected}}</span>
+        </p>
+
+        <component v-bind:is="selectedList" style="font-size: 10.5pt; font-family: 'Times New Roman', Times, serif;">
+            <li v-for="(item, pid) in publications" style="text-align:justify; text-justify:inter-ideograph"
+                v-if="(!showSelected || item.selected) && ( (selectedYear === 'All') || (selectedYear === item.year) )"
+                v-on:click="selectPublication(pid)">
+
+                <span v-if="(!showSelected) && item.selected">✅</span>
+
+                <span v-for="(author, uid) in item.authors">
+                    <span v-if="author.startsWith(about.nameEN)"><b>{{author}}</b></span><span
+                        v-else>{{author}}</span><span v-if="uid === (item.authors.length-1)">.</span><span v-else>,
+                    </span>
+                </span>
+
+                <span v-html="item.title"></span>.
+                <i>
+                    {{item.venue}}<span v-if="item.abbr"> ({{item.abbr}})</span>, {{item.year}}.
+                </i>
+
+                <b v-if="item.highlight">{{item.highlight}}.</b>
+
+                <span v-if="item.note">({{item.note}})</span>
+            </li>
+        </component>
+
+        <p align="center">
+            Copyright © {{site.year}} <span class="d-block d-sm-none"></span>{{about.nameCN}} {{about.nameEN}}
+        </p>
+
+        <p align="center">
+            <small>
+                This website is hosted on <a v-bind:href="site.url" target="_blank">GitHub</a>.
+                Updated on {{site.lastUpdated}}.
+            </small>
+        </p>
+
+    </div>
+
+
+    <script src="../assets/data.js"></script>
+    <script src="../assets/app.js"></script>
+
+</body>
+
+</html>

@@ -17,7 +17,7 @@ const site = {
             href: "#honors"
         },
     ],
-    relatedProjects: [
+    links: [
         {
             tag: "AI Deadlines (CV-oriented)",
             href: "https://m3dv.github.io/ai-deadlines/"
@@ -33,7 +33,15 @@ const site = {
         {
             tag: "2048 Game API",
             href: "https://github.com/duducheng/2048-api"
-        }
+        },
+        {
+            tag: "Export: Source Data (json)",
+            href: "export/data.html"
+        },
+        {
+            tag: "Export: Publications (resume)",
+            href: "export/publications.html"
+        },   
     ]
 };
 
@@ -602,7 +610,7 @@ const publications = [
 ];
 
 const preprints = [
-    
+
 ];
 
 const honors = [

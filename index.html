@@ -38,10 +38,10 @@
                     <span class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Related Projects
+                            Links
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <span v-for="item in site.relatedProjects">
+                            <span v-for="item in site.links">
                                 <a class="dropdown-item" v-bind:href="item.href" target="_blank">{{item.tag}}</a>
                             </span>
                         </div>
@@ -116,10 +116,10 @@
                     * indicates equal contribution.
                 </i>
 
-                <p>Year Filter:
+                <p>Filter:
                     <span class="badge" v-on:click="selectedYear = 'All'"
-                        v-bind:class="{  'badge-dark': selectedYear === 'All' }">
-                        All
+                        v-bind:class="{ 'badge-dark': selectedYear === 'All' }">
+                        {{years[0]}}-{{years[years.length-1]}}
                     </span>
                     <span class="badge" v-for="yyyy in years" v-on:click="selectedYear = yyyy"
                         v-bind:class="{ 'badge-dark': selectedYear === yyyy}">

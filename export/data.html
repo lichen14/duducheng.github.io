@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Source Data</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../vender/bootstrap.min.css" rel="stylesheet">
+    <script src="../vender/vue.min.js"></script>
+    <link href="../assets/site/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+
+<body>
+
+    <div class="container" id="app">
+
+        <p>Filter:
+            <span class="badge" v-for="tag in tags" v-on:click="selectedTag = tag"
+                v-bind:class="{ 'badge-dark': selectedTag == tag}">
+                {{tag}}
+            </span>
+        </p>
+
+        <pre v-for="tag in tags" v-if="selectedTag === tag">{{JSON.stringify(eval(tag),null,2)}}</pre>
+
+
+        <p align="center">
+            Copyright © {{site.year}} <span class="d-block d-sm-none"></span>{{about.nameCN}} {{about.nameEN}}
+        </p>
+
+        <p align="center">
+            <small>
+                This website is hosted on <a v-bind:href="site.url" target="_blank">GitHub</a>.
+                Updated on {{site.lastUpdated}}.
+            </small>
+        </p>
+
+    </div>
+
+
+    <script src="../assets/data.js"></script>
+    <script src="../assets/app.js"></script>
+
+</body>
+
+</html>
