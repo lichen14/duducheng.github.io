@@ -10,17 +10,21 @@ const site = {
         },
         {
             tag: "Publications",
-            href: "#publications"
+            href: "#sectionPublications"
         },
         {
             tag: "More",
-            href: "#honors"
+            href: "#sectionHonors"
         },
     ],
     links: [
         {
-            tag: "AI Deadlines (CV-oriented)",
-            href: "https://m3dv.github.io/ai-deadlines/"
+            tag: "MedMNIST Dataset",
+            href: "https://medmnist.com/"
+        },
+        {
+            tag: "RibFrac Challenge",
+            href: "https://ribfrac.grand-challenge.org/"
         },
         {
             tag: "Deep Learning Kickstart",
@@ -33,6 +37,10 @@ const site = {
         {
             tag: "2048 Game API",
             href: "https://github.com/duducheng/2048-api"
+        },
+        {
+            tag: "AI Deadlines (CV-oriented)",
+            href: "https://m3dv.github.io/ai-deadlines/"
         },
         {
             tag: "Export: Source Data (json)",

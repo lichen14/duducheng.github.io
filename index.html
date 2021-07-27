@@ -38,7 +38,7 @@
                     <span class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Links
+                            Interesting Links
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <span v-for="item in site.links">
@@ -54,8 +54,7 @@
 
         <br> <br>
 
-        <!-- about -->
-        <div class="row">
+        <div class="row" id="sectionAbout">
 
             <div class="d-none d-md-block col-md-4 col-lg-3">
                 <img v-bind:src="about.avatar" class="img-fluid">
@@ -81,8 +80,7 @@
 
         </div>
 
-        <!-- biography -->
-        <div class="row">
+        <div class="row" id="sectionBiography">
             <div class="col">
                 <h2><b>Biography</b></h2>
                 <p style="text-align:justify; text-justify:inter-ideograph">
@@ -91,8 +89,7 @@
             </div>
         </div>
 
-        <!-- news -->
-        <div class="row">
+        <div class="row" id="sectionNews">
             <div class="col">
                 <h2><b>News</b></h2>
                 <div style="height: 250px; overflow: auto;">
@@ -106,8 +103,7 @@
             </div>
         </div>
 
-        <!-- publications -->
-        <div class="row">
+        <div class="row" id="sectionPublications">
 
             <div class="col">
                 <h2><b>Selected Publications</b></h2>
@@ -168,8 +164,7 @@
             </div>
         </div>
 
-        <!-- preprints -->
-        <div class="row" v-if="preprints.length>0">
+        <div class="row" id="sectionPreprints" v-if="preprints.length>0">
 
             <div class="col">
                 <h2><b>Selected Preprints</b></h2>
@@ -209,8 +204,7 @@
             </div>
         </div>
 
-        <!-- honors -->
-        <div class="row">
+        <div class="row" id="sectionHonors">
             <div class="col">
                 <h2><b>Selected Honors and Competitions</b></h2>
                 <ul>
@@ -222,8 +216,7 @@
             </div>
         </div>
 
-        <!-- talks -->
-        <div class="row">
+        <div class="row" id="sectionTalks">
 
             <div class="col">
                 <h2><b>Selected Talks</b></h2>
@@ -255,8 +248,7 @@
             </div>
         </div>
 
-        <!-- activities -->
-        <div class="row">
+        <div class="row" id="sectionActivities">
             <div class="col">
                 <h2><b>Professional Activities</b></h2>
 
@@ -292,8 +284,7 @@
             </div>
         </div>
 
-        <!-- misc -->
-        <div class="row">
+        <div class="row" id="sectionMisc">
             <div class="col">
                 <h2><b>Misc.</b></h2>
                 <ul>
@@ -314,7 +305,6 @@
             </div>
         </div>
 
-
         <p align="center">
             Copyright © {{site.year}} <span class="d-block d-sm-none"></span>{{about.nameCN}} {{about.nameEN}}
         </p>
@@ -327,7 +317,7 @@
         </p>
 
         <p align="center" v-show="site.showPageviews">
-            <!-- Please do not use the following page tracker if you are using my website as template. -->
+            <!-- Please DO NOT use the following page tracker if you are using my website as template. -->
             <small>Pageviews since Nov, 2020:</small><br>
             <a href="https://clustrmaps.com/site/1behp" title="Visit tracker">
                 <img
