@@ -157,6 +157,21 @@ const news = [
 
 const publications = [
     {
+        title: "Shape Self-Correction for Unsupervised Point Cloud Understanding",
+        file: "assets/publication/#TODO",
+        venue: "IEEE International Conference on Computer Vision",
+        abbr: "ICCV",
+        year: "2021",
+        authors: ["Ye Chen", "Jinxian Liu", "Bingbing Ni", "Hang Wang", "Jiancheng Yang", "Ning Liu", "Teng Li", "Qi Tian"],
+        img: "assets/imgs/CY ICCV21.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            }
+        ]
+    },
+    {
         title: "Asymmetric 3D Context Fusion for Universal Lesion Detection",
         file: "assets/publication/#TODO",
         venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
@@ -201,7 +216,7 @@ const publications = [
         abbr: "CVPR",
         year: "2021",
         authors: ["Linguo Li", "Minsi Wang", "Bingbing Ni", "Hang Wang", "Jiancheng Yang", "Wenjun Zhang"],
-        img: "assets/imgs/LLG CVPR21.png",
+        img: "assets/imgs/LLG CVPR21.jpg",
         materials: [
             {
                 tag: "publication",
@@ -273,7 +288,7 @@ const publications = [
         venue: "EBioMedicine (by The Lancet)",
         year: "2020",
         authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
-        img: "assets/imgs/FracNet EBioMedicine.png",
+        img: "assets/imgs/FracNet EBioMedicine.jpg",
         materials: [
             {
                 tag: "publication",
@@ -304,7 +319,7 @@ const publications = [
         abbr: "NeurIPS",
         year: "2020",
         authors: ["Jiancheng Yang*", "Yangzhou Jiang*", "Xiaoyang Huang", "Bingbing Ni", "Chenglong Zhao"],
-        img: "assets/imgs/LeBA NeurIPS20.png",
+        img: "assets/imgs/LeBA NeurIPS20.jpg",
         materials: [
             {
                 tag: "publication",
