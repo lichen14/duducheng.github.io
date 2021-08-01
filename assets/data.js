@@ -701,14 +701,14 @@ const activities = {
     ],
     conference: [
         {
-            venue: "International Conference on Learning Representations",
-            year: "2022",
-            abbr: "ICLR"
+            venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
+            year: "2020-2021",
+            abbr: "MICCAI"
         },
         {
-            venue: "Advances in Neural Information Processing Systems",
-            year: "2021",
-            abbr: "NeurIPS"
+            venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+            year: "2020-2022",
+            abbr: "CVPR"
         },
         {
             venue: "International Conference on Computer Vision",
@@ -716,14 +716,19 @@ const activities = {
             abbr: "ICCV"
         },
         {
+            venue: "Advances in Neural Information Processing Systems",
+            year: "2020-2021",
+            abbr: "NeurIPS"
+        },
+        {
             venue: "International Conference on Machine Learning",
             year: "2021",
             abbr: "ICML"
         },
         {
-            venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
-            year: "2021",
-            abbr: "MICCAI"
+            venue: "International Conference on Learning Representations",
+            year: "2022",
+            abbr: "ICLR"
         },
         {
             venue: "IEEE International Symposium on Biomedical Imaging",
@@ -731,9 +736,9 @@ const activities = {
             abbr: "ISBI"
         },
         {
-            venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-            year: "2021",
-            abbr: "CVPR"
+            venue: "British Machine Vision Conference",
+            year: "2020",
+            abbr: "BMVC"
         },
         {
             venue: "IEEE Winter Conference on Applications of Computer Vision",
@@ -744,26 +749,6 @@ const activities = {
             venue: "Asian Conference on Computer Vision",
             year: "2020",
             abbr: "ACCV"
-        },
-        {
-            venue: "Advances in Neural Information Processing Systems",
-            year: "2020",
-            abbr: "NeurIPS"
-        },
-        {
-            venue: "British Machine Vision Conference",
-            year: "2020",
-            abbr: "BMVC"
-        },
-        {
-            venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
-            year: "2020",
-            abbr: "MICCAI"
-        },
-        {
-            venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-            year: "2020",
-            abbr: "CVPR"
         }
     ],
     journal: [
