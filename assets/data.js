@@ -1,6 +1,6 @@
 const site = {
     year: "2020-2021",
-    url: "https://github.com/duducheng/duducheng.github.io",
+    url: "https://github.com/lichen14/duducheng.github.io",
     lastUpdated: "July, 2021",
     showPageviews: false,
     navbar: [
@@ -55,7 +55,7 @@ const site = {
 
 const about = {
     nameEN: "Jiancheng Yang",
-    nameCN: "杨健程",
+    nameCN: "李晨",
     affiliation: "PhD, Shanghai Jiao Tong University",
     avatar: "assets/site/personal-square.jpg",
     contacts: [
@@ -79,9 +79,8 @@ const about = {
     ]
 };
 
-const biography = `I am a 4th-year PhD student at Shanghai Jiao Tong University, advised by <a href='https://scholar.google.com/citations?user=eUbmKwYAAAAJ'>Prof. Bingbing Ni</a>. I received BEng and MEng degrees from the same university. I also obtained a <a href='https://en.wikipedia.org/wiki/Dipl%C3%B4me_d%27Ing%C3%A9nieur'>Dipl. Ing.</a> (my double master's degree) in France. I was a visiting research fellow in the <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting the <a href="https://cvlab.epfl.ch/">CVLab</a> at EPFL, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
-
-I focus on <b>medical image analysis</b> and <b>3D computer vision</b>, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals/conferences, e.g., Cancer Research, CVPR, MICCAI, and NeurIPS. I have been a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge</a>.`
+const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Computers & Graphics, ICIP, Applied Sciences and MICAD.`
 
 const news = [
     {
